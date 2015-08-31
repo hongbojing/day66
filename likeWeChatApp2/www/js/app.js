@@ -17,3 +17,17 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+.controller('listController', listController);
+
+function listController() {
+  var vm = this;
+  vm.lists = [
+    {name:'hongbo1', content:'hehehe caonima'},
+    {name:'hongbo2', content:'hehehe caonima'},
+    {name:'hongbo3', content:'hehehe caonima'},
+    {name:'hongbo4', content:'hehehe caonima'},
+    {name:'hongbo5', content:'hehehe caonima'},
+    {name:'hongbo6', content:'hehehe caonima'},
+    {name:'hongbo7', content:'hehehe caonima'}
+  ];
+}
